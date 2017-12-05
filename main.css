@@ -1,0 +1,220 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#maincontainer {
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+/* HEADER */
+
+header {
+	background-color: white;
+	height: 60px;
+	background-color: rgba(255, 255, 255, 0.8);
+	position: fixed;
+	top: 0;
+	width: 1200px;
+	max-width: 100%;
+	overflow: hidden;
+	z-index: 1;
+}
+
+header img {
+	max-width: 200px;
+	float: left;
+	margin: 20px 0px 20px 10px;
+}
+
+header img:hover {
+	opacity: 0.3;
+}
+
+header ul {
+	list-style-type: none;
+	margin: 20px 20px 20px 0px;
+	padding: 0;
+	float: right;
+}
+
+header ul li {
+	float: left;
+	margin: 0px 10px;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+
+header ul li a:hover {
+	opacity: 0.3;
+}
+
+header .active {
+	border-bottom: 3px solid grey;
+}
+
+
+
+/* BODY WITH CONTENT */
+
+#headerimg {
+	max-width: 100%;
+}
+
+#welcometext {
+	max-width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#welcometext h2, p {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+#welcometext p {
+	font-size: 12px;
+}
+
+#newscontainer {
+	overflow: hidden;
+	max-width: 100%;
+}
+
+#newscontainer h3 {
+	text-align: center;
+}
+
+#newscontainer #newsbox {
+	width: 48%;
+	height: 250px;
+	background-color: #e8eaef;
+	float: left;
+	margin: 1%;
+	padding: 0;
+	position: relative;
+}
+
+#newscontainer #newsbox p {
+	text-align: center;
+	font-size: 12px;
+}
+
+#newscontainer #newsbox button {
+	border: 5px solid white;
+	padding: 10px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: transparent;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	transition-duration: 0.5s;
+}
+
+#newscontainer #newsbox button:hover {
+	background-color: white;
+}
+
+
+
+/* FOOTER */
+
+footer {
+	background-color: #718693;
+	text-align: center;
+	margin: 0;
+	margin-top: 10px;
+}
+
+footer p {
+	font-size: 12px;
+	margin: 0;
+	padding: 10px 0px;
+}
+
+
+
+/* ABOUT PAGE */
+
+#infocontainer {
+	margin: 20px;
+	margin-top: 80px;
+	background-color: #e8eaef;
+	padding: 20px;
+	text-align: center;
+}
+
+#infocontainer p {
+	font-size: 12px;
+}
+
+#infocontainer #aboutimg {
+	max-width: 100%;
+	margin-top: 20px;
+}
+
+
+
+/* BROWSE BOOKS PAGE */
+.book-list {
+	font-size: 12px;
+	margin: auto;
+	border-top: 3px dashed grey;
+	margin-top: 20px;
+}
+
+
+
+/* MY BOOKS */
+
+#infocontainer #mybookslist {
+	text-align: left;
+}
+
+#infocontainer #mybookslist li a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/* GALLARY PICTURES*/
+
+#gallary {
+	list-style-type: none;
+	padding: 0;
+	column-count:3;
+	column-gap:0px;
+	line-height: 0;
+}
+
+#gallary li img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<?php echo "Hello World!"; ?>
